@@ -1,1 +1,2 @@
 # MobileNetV2_Dog_Breeds_Classification
+Image classification model for 8 dog breeds built using transfer learning with MobileNetV2. The top layer of the model was replaced with a softmax dense layer of 8 neurons and trained for 5 epochs achieving a high accuracy on both the training and validation datasets. The model was subsequently finetuned by retraining the last layer. Training accuracy of 99.08% and Validation accuracy of 99.07% was achieved.
